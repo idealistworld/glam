@@ -44,10 +44,10 @@ function HowItWorks(props) {
         <p className='mt-3 text-neutral-300'>{paragraphText}</p>
 
         <div className='mt-5 max-lg:mt-5 w-[120%] flex items-center justify-satrt'>
-          <button onClick={prevStep} className='max-lg:text-sm accent-white rounded-lg cursor-pointer bg-white px-12 py-2'>
+          <button onClick={prevStep} className='max-lg:text-sm accent-white rounded-lg cursor-pointer bg-white px-12 py-2 max-lg:px-6'>
             Back
           </button>
-          <button onClick={nextStep} className='max-lg:text-sm accent-white ml-10 rounded-lg cursor-pointer bg-white px-12 py-2'>
+          <button onClick={nextStep} className='max-lg:text-sm accent-white ml-10 rounded-lg cursor-pointer bg-white px-12 py-2 max-lg:px-6'>
             Next
           </button>
         </div>
