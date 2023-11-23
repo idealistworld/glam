@@ -52,8 +52,10 @@ function App() {
         </div>
 
          <HowItWorks></HowItWorks>
-      
       </body>
+      <footer class ='flex py-30'>
+        <h1>asdf</h1>
+      </footer>
     </div>
   );
 }
