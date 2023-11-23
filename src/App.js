@@ -53,8 +53,12 @@ function App() {
 
          <HowItWorks></HowItWorks>
       </body>
-      <footer class ='flex py-30'>
-        <h1>asdf</h1>
+      <footer class ='flex justify-between pt-[20px] pb-[50px] px-20'>
+        <h1>Contact: <span class='font-semibold'>paul@neiro.ai</span></h1>
+        <a href ='https://www.linkedin.com/company/mlventures-ai/' target='_blank'>
+          <h1>LinkedIn</h1>
+        </a>
+
       </footer>
     </div>
   );
