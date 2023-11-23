@@ -9,14 +9,18 @@ import HowItWorks from './components/howItWorks'
 function App() {
   return (
     <div>
-      <header class ='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-5 max-lg:px-3 flex justify-between items-center'>
+      <header  class ='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-5 max-lg:px-3 flex justify-between items-center'>
         <img class='h-11 max-lg:h-7' src ={glamLogo}></img>
         <div class='flex mr-6 text'>
-          <h1 class='mr-[30px] max-lg:mr-[15px] text-lg max-lg:text-sm font-semibold'>Products</h1>
-          <h1 class='text-lg max-lg:text-sm'>About</h1>
+          <a href = '#product'>
+            <h1 class='mr-[30px] max-lg:mr-[15px] text-lg max-lg:text-sm font-semibold'>Product</h1>
+          </a>
+          <a href ='#how-it-works'>
+            <h1 class='text-lg max-lg:text-sm'>How it Works</h1>
+          </a>
         </div>
       </header>
-      <body class ='py-16 flex-col items-center justify-center '>
+      <body id='product' class ='py-16 flex-col items-center justify-center '>
         <div class='flex flex-wrap-reverse px-7 py-20 justify-center items-center bg-landing bg-cover'>
           <div class ='max-lg:w-[100%] max-lg:mt-14 w-[40%] mr-[80px] max-lg:mr-[0px] z-30'>
             <h1 class='max-lg:text-6xl text-white font-black text-7xl drop-shadow-2xl max-lg:leading-tight leading-tight'>✨ make custom <span class ='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>ai generated </span> filters ✨</h1>
@@ -53,7 +57,7 @@ function App() {
 
          <HowItWorks></HowItWorks>
       </body>
-      <footer class ='flex justify-between pt-[20px] pb-[35px] max-lg:px-8 px-12'>
+      <footer id = 'how-it-works' class ='flex justify-between pt-[20px] pb-[35px] max-lg:px-8 px-12'>
         <h1>Contact: <span class='font-semibold'>paul@neiro.ai</span></h1>
         <a href ='https://www.linkedin.com/company/mlventures-ai/' target='_blank'>
           <h1>LinkedIn</h1>
