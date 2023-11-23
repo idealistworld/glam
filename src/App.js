@@ -19,7 +19,7 @@ function App() {
       <body class ='py-16 flex-col items-center justify-center '>
         <div class='flex flex-wrap-reverse px-7 py-20 justify-center items-center bg-landing bg-cover'>
           <div class ='max-lg:w-[100%] max-lg:mt-14 w-[40%] mr-[80px] max-lg:mr-[0px] z-30'>
-            <h1 class='max-lg:text-4xl text-white font-black text-7xl drop-shadow-2xl max-lg:leading-tight leading-tight'>✨ make custom <span class ='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>ai generated </span> filters ✨</h1>
+            <h1 class='max-lg:text-5xl text-white font-black text-7xl drop-shadow-2xl max-lg:leading-tight leading-tight'>✨ make custom <span class ='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>ai generated </span> filters ✨</h1>
             <p class ='text-white font-medium text-lg leading-loose mt-3'>Making your content eye-catching and the one that stands out among the others’ content?  Check Glam app’s AI Magic that is a perfect tool for your photos and videos!</p>
             <div class = 'max-lg:flex-col flex mt-12'>
               <a href='https://apps.apple.com/sa/app/glam-ai-art-video-generator/id1545593132' target='_blank'>
