@@ -9,7 +9,7 @@ import HowItWorks from './components/howItWorks'
 function App() {
   return (
     <div>
-      <header class ='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-5 max-lg:px-0 flex justify-between items-center'>
+      <header class ='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-5 max-lg:px-3 flex justify-between items-center'>
         <img class='h-11 max-lg:h-7' src ={glamLogo}></img>
         <div class='flex mr-6 text'>
           <h1 class='mr-[30px] max-lg:mr-[15px] text-lg max-lg:text-sm font-semibold'>Products</h1>
