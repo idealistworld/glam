@@ -10,10 +10,10 @@ function App() {
   return (
     <div>
       <header class ='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-5 flex justify-between items-center'>
-        <img class='h-11' src ={glamLogo}></img>
+        <img class='h-11 max-lg:h-7' src ={glamLogo}></img>
         <div class='flex mr-6 text'>
-          <h1 class='mr-[30px] text-lg font-semibold'>Products</h1>
-          <h1 class='text-lg'>About</h1>
+          <h1 class='mr-[30px] text-lg max-lg:text-base font-semibold'>Products</h1>
+          <h1 class='text-lg max-lg:text-base'>About</h1>
         </div>
       </header>
       <body class ='py-16 flex-col items-center justify-center '>
