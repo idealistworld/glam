@@ -43,7 +43,7 @@ function HowItWorks(props) {
 
         <p className='mt-3 text-neutral-300'>{paragraphText}</p>
 
-        <div className='mt-5 max-lg:mt-5 w-[100%] flex items-center justify-satrt'>
+        <div className='mt-5 max-lg:mt-5 w-[120%] flex items-center justify-satrt'>
           <button onClick={prevStep} className='accent-white rounded-lg cursor-pointer bg-white px-12 py-2'>
             Back
           </button>
@@ -56,7 +56,7 @@ function HowItWorks(props) {
       <img
         src={stepPhoto}
         alt="Description of the image"
-        className='max-lg:ml-[0px] max-lg:w-[100%] ml-[100px] rounded-3xl drop-shadow-3xl'
+        className='max-lg:ml-[0px] max-lg:w-[120%] ml-[100px] rounded-3xl drop-shadow-3xl'
       />
     </div>
   );
