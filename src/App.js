@@ -9,11 +9,11 @@ import HowItWorks from './components/howItWorks'
 function App() {
   return (
     <div>
-      <header class ='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-5 flex justify-between items-center'>
+      <header class ='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-5 max-lg:px-0 flex justify-between items-center'>
         <img class='h-11 max-lg:h-7' src ={glamLogo}></img>
         <div class='flex mr-6 text'>
-          <h1 class='mr-[30px] max-lg:mr-[5px] text-lg max-lg:text-base font-semibold'>Products</h1>
-          <h1 class='text-lg max-lg:text-base'>About</h1>
+          <h1 class='mr-[30px] max-lg:mr-[15px] text-lg max-lg:text-sm font-semibold'>Products</h1>
+          <h1 class='text-lg max-lg:text-sm'>About</h1>
         </div>
       </header>
       <body class ='py-16 flex-col items-center justify-center '>
@@ -26,7 +26,7 @@ function App() {
               <img src={appStore} class ='transform drop-shadow-2xl h-14 hover:scale-110 duration-300 hover:-rotate-6'></img> 
               </a>
               <a href = 'https://play.google.com/store/apps/details?id=app.getglam&hl=en_US&gl=US' target='_blank'>    
-              <img src={googlePlay} class ='ml-6 transform drop-shadow-2xl h-14 hover:scale-110 duration-300 hover:rotate-6'></img>          
+              <img src={googlePlay} class =' ml-6 transform drop-shadow-2xl h-14 hover:scale-110 duration-300 hover:rotate-6'></img>          
               </a>
             </div>
           </div>
