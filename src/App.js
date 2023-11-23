@@ -23,10 +23,10 @@ function App() {
             <p class ='text-white font-medium text-lg leading-loose mt-3'>Making your content eye-catching and the one that stands out among the others’ content?  Check Glam app’s AI Magic that is a perfect tool for your photos and videos!</p>
             <div class = 'max-lg:flex-col flex mt-12'>
               <a href='https://apps.apple.com/sa/app/glam-ai-art-video-generator/id1545593132' target='_blank'>
-              <img src={appStore} class ='transform drop-shadow-2xl max-lg:h-16 h-14 hover:scale-110 duration-300 hover:-rotate-6'></img> 
+              <img src={appStore} class ='transform drop-shadow-2xl max-lg:h-14 h-14 hover:scale-110 duration-300 hover:-rotate-6'></img> 
               </a>
               <a href = 'https://play.google.com/store/apps/details?id=app.getglam&hl=en_US&gl=US' target='_blank'>    
-              <img src={googlePlay} class ='max-lg:ml-0 max-lg:mt-10 max-lg:h-16 ml-6 transform drop-shadow-2xl h-14 hover:scale-110 duration-300 hover:rotate-6'></img>          
+              <img src={googlePlay} class ='max-lg:ml-0 max-lg:mt-10 max-lg:h-14 ml-6 transform drop-shadow-2xl h-14 hover:scale-110 duration-300 hover:rotate-6'></img>          
               </a>
             </div>
           </div>
@@ -53,7 +53,7 @@ function App() {
 
          <HowItWorks></HowItWorks>
       </body>
-      <footer class ='flex justify-between pt-[20px] pb-[50px] px-20'>
+      <footer class ='flex justify-between pt-[20px] pb-[35px] px-12'>
         <h1>Contact: <span class='font-semibold'>paul@neiro.ai</span></h1>
         <a href ='https://www.linkedin.com/company/mlventures-ai/' target='_blank'>
           <h1>LinkedIn</h1>
