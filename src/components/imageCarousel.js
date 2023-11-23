@@ -12,7 +12,7 @@ function ImageCarousel() {
     ></img>
     <img
       src={middleImage}
-      className="w-[230px] max-lg:w-[140px] z-50 h-auto rounded-3xl hover:scale-110 duration-300"
+      className="w-[230px] max-lg:w-[170px] z-50 h-auto rounded-3xl hover:scale-110 duration-300"
     ></img>
     <img
       src={rightImage}
