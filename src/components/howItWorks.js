@@ -41,7 +41,7 @@ function HowItWorks(props) {
         <h1 className='text-5xl font-black animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>How it Works</h1>
         <h1 className='max-lg:text-xl text-3xl font-bold my-8 max-lg:my-4 text-white'>{`Step ${step}`}</h1>
 
-        <p className='max-lg:text-base mt-3 text-neutral-300'>{paragraphText}</p>
+        <p className='max-lg:text-sm mt-3 text-neutral-300'>{paragraphText}</p>
 
         <div className='mt-5 max-lg:mt-5 w-[120%] flex items-center justify-satrt'>
           <button onClick={prevStep} className='max-lg:text-sm accent-white rounded-lg cursor-pointer bg-white px-12 py-2 max-lg:px-6'>
