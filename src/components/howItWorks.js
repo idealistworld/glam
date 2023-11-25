@@ -3,7 +3,7 @@ import './HowItWorks.css';
 
 function HowItWorks() {
   return (
-    <div className='flex-wrap relative bg-cover rounded-3xl px-5 flex items-center justify-around w-[100%]'>
+    <div className='flex-wrap relative bg-cover px-5 flex items-center justify-around w-[100%'>
       <div className='max-md:mt-6 box-border max-md:w-[100%] max-lg:px-5 max-lg:pb-0 py-8 px-4 rounded-3xl w-[40%] mb-8 max-md:mb-0 hover:scale-105 duration-300'>
         <h1 className='max-lg:text-4xl max-lg:mt-0 text-5xl font-bold bg-clip-text text-neutral-600'>How it works</h1>
         <p className='max-lg:text-sm mt-7 text-md text-neutral-400'>Glam is super easy to get started with. All you need is the Glam app and content and in a few minutes, you'll have finished content.</p>
