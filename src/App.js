@@ -11,7 +11,7 @@ function App() {
     <div>
       <header class='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-4 max-lg:py-5 max-lg:px-3 flex justify-between items-center'>
         <img class='h-10 max-lg:h-7' src={glamLogo}></img>
-        <div class='flex mr-6 text'>
+        <div class='flex mr-6 max-sm:mr-3'>
           <a href='#product'>
             <h1 class='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm'>Product</h1>
           </a>
