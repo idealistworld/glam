@@ -8,19 +8,19 @@ import HowItWorks from './components/howItWorks'
 function App() {
   return (
     <div>
-      <header class='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white px-8 py-4 max-lg:py-5 max-lg:px-3 flex justify-between items-center'>
+      <header class='absolute z-50 w-screen box-border bg-transparent px-8 py-6 max-lg:py-5 max-lg:px-3 flex justify-between items-center'>
         <img class='h-10 max-lg:h-7 max-sm:ml-1' src={glamLogo}></img>
         <div class='flex mr-6 max-sm:mr-3'>
           <a href='#product'>
-            <h1 class='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm text-[#5B5B5B]'>Product</h1>
+            <h1 class='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm text-[#FFFFFF] font-semibold hover:scale-110 duration-200'>Product</h1>
           </a>
           <a href='#how-it-works'>
-            <h1 class='text-base max-lg:text-sm text-[#5B5B5B]'>How it Works</h1>
+            <h1 class='text-base max-lg:text-sm text-[#FFFFFF] font-semibold hover:scale-110 duration-200'>How it Works</h1>
           </a>
         </div>
       </header>
-      <body id='product' class='py-14 flex-col items-center justify-center'>
-        <div class='flex flex-wrap-reverse px-7 py-20 max-sm:py-11 justify-center items-center bg-landing bg-cover max-lg:text-center'>
+      <body id='product' class='flex-col items-center justify-center'>
+        <div class='flex flex-wrap-reverse px-7 pt-28 pb-10 justify-center items-center bg-landing bg-cover max-lg:text-center'>
           <div class='max-lg:w-[100%] max-lg:mt-10 w-[40%] mr-[80px] max-lg:mr-[0px] z-30'>
             <h1 class='max-sm:text-left max-lg:text-4xl text-white font-black text-6xl drop-shadow-2xl max-lg:leading-tight leading-tight'>✨ make custom <span class='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>ai generated </span> filters ✨</h1>
             <p class='max-sm:text-left max-sm:text-base max-lg:text-md text-white font-medium text-lg leading-loose mt-3'>Making your content eye-catching and the one that stands out among the others’ content?  Check Glam app’s AI Magic that is a perfect tool for your photos and videos!</p>
