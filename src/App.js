@@ -8,7 +8,7 @@ import HowItWorks from './components/howItWorks'
 function App() {
   return (
     <div>
-      <header class='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/30 px-8 py-4 max-lg:py-5 max-lg:px-3 flex justify-between items-center'>
+      <header class='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white px-8 py-4 max-lg:py-5 max-lg:px-3 flex justify-between items-center'>
         <img class='h-10 max-lg:h-7 max-sm:ml-1' src={glamLogo}></img>
         <div class='flex mr-6 max-sm:mr-3'>
           <a href='#product'>
