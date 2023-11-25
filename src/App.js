@@ -16,7 +16,7 @@ function App() {
             <h1 class='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm'>Product</h1>
           </a>
           <a href ='#how-it-works'>
-            <h1 class='text-lg text-base max-lg:text-sm'>How it Works</h1>
+            <h1 class='text-base max-lg:text-sm'>How it Works</h1>
           </a>
         </div>
       </header>
