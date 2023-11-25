@@ -1,6 +1,5 @@
 import './App.css';
 import glamLogo from './images/logo.png'
-import whiteLogo from './images/logo_white.svg'
 import appStore from './images/appstore.svg'
 import googlePlay from './images/googleplay.svg'
 import ImageCarousel from './components/imageCarousel'
@@ -9,14 +8,14 @@ import HowItWorks from './components/howItWorks'
 function App() {
   return (
     <div>
-      <header class='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/50 px-8 py-4 max-lg:py-5 max-lg:px-3 flex justify-between items-center'>
-        <img class='h-10 max-lg:h-7' src={glamLogo}></img>
+      <header class='fixed z-50 w-screen box-border backdrop-blur-3xl drop-shadow-2xl bg-white/30 px-8 py-4 max-lg:py-5 max-lg:px-3 flex justify-between items-center'>
+        <img class='h-10 max-lg:h-7 max-sm:ml-1' src={glamLogo}></img>
         <div class='flex mr-6 max-sm:mr-3'>
           <a href='#product'>
-            <h1 class='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm'>Product</h1>
+            <h1 class='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm text-[#5B5B5B]'>Product</h1>
           </a>
           <a href='#how-it-works'>
-            <h1 class='text-base max-lg:text-sm'>How it Works</h1>
+            <h1 class='text-base max-lg:text-sm text-[#5B5B5B]'>How it Works</h1>
           </a>
         </div>
       </header>
@@ -58,9 +57,9 @@ function App() {
         <HowItWorks></HowItWorks>
       </body>
       <footer id='how-it-works' class='flex justify-between pt-[20px] pb-[35px] max-lg:px-8 px-12'>
-        <h1>Contact: <span class='font-semibold'>paul@neiro.ai</span></h1>
+        <h1 class='text-[#5B5B5B]'>Contact: <span class='font-semibold'>paul@neiro.ai</span></h1>
         <a href='https://www.linkedin.com/company/mlventures-ai/' target='_blank'>
-          <h1 class='font-semibold'>LinkedIn</h1>
+          <h1 class='font-semibold text-[#5B5B5B]'>LinkedIn</h1>
         </a>
 
       </footer>
