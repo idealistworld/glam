@@ -20,7 +20,7 @@ function App() {
           </a>
         </div>
       </header>
-      <body id='product' class ='py-14 flex-col items-center justify-center '>
+      <body id='product' class ='py-14 flex-col items-center justify-center'>
         <div class='flex flex-wrap-reverse px-7 py-20 justify-center items-center bg-landing bg-cover max-lg:text-center'>
           <div class ='max-lg:w-[100%] max-lg:mt-14 w-[40%] mr-[80px] max-lg:mr-[0px] z-30'>
             <h1 class='max-sm:text-left max-lg:text-5xl text-white font-black text-6xl drop-shadow-2xl max-lg:leading-tight leading-tight'>✨ make custom <span class ='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>ai generated </span> filters ✨</h1>
@@ -39,8 +39,8 @@ function App() {
           </div>
         </div>
         
-        <div class='py-10 px-5 my-8 bg-white flex flex-wrap items-center justify-evenly max-md:justify-start max-lg:py-4'>
-          <h1 class='text-3xl font-black w-32 text-neutral-500 mr-10 max-sm:mx-0'>In <span class = 'text-4xl text-black whitespace-nowrap'> just one </span> year</h1>
+        <div class='py-10 px-5 my-8 bg-white flex flex-wrap items-center justify-around max-md:justify-start max-lg:py-4'>
+          <h1 class='text-3xl font-bold w-32 text-neutral-500 mr-10 max-sm:mx-0'>In <span class = 'text-4xl text-black whitespace-nowrap'> just one </span> year</h1>
           <div class ='flex flex-col flex-row items-start max-sm:mx-0 max-sm:w-screen max-sm:mt-10'>
             <h1 class='text-6xl max-sm:text-7xl max-lg:text-5xl font-bold animate-text bg-gradient-to-r from-[#FF8FFA] via-[#FFCDB1] to-[#FFEB69] bg-clip-text text-transparent font-white'>500K+</h1>
             <h1 class='text-2xl font-bold mt-3 text-neutral-500 tracking-wide'>downloads</h1>
