@@ -36,18 +36,18 @@ function HowItWorks(props) {
   };
 
   return (
-    <div className='max-lg:flex-wrap-reverse max-lg:h-[100%] max-lg:mx-0 relative bg-effect bg-cover rounded-3xl mx-10 px-16 flex items-center justify-center absolute h-[500px]'>
-      <div className='max-lg:mt-6 box-border max-lg:w-[100%] max-lg:px-5 max-lg:py-6 backdrop-blur-3xl drop-shadow-2xl bg-black/60 drop-shadow-2xl py-12 px-8 rounded-3xl w-[40%]'>
+    <div className='max-md:flex-wrap-reverse max-md:h-[100%] max-lg:mx-0 relative bg-effect bg-cover rounded-3xl mx-10 px-16 flex items-center justify-center absolute h-[500px]'>
+      <div className='max-md:mt-6 box-border max-md:w-[100%] max-lg:px-5 max-lg:py-6 backdrop-blur-3xl drop-shadow-2xl bg-black/60 drop-shadow-2xl py-12 px-8 rounded-3xl w-[40%]'>
         <h1 className='max-lg:text-3xl max-lg:mt-0 text-4xl font-black animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>How it Works</h1>
         <h1 className='max-lg:text-xl text-3xl font-bold my-5 max-lg:my-3 text-white'>{`Step ${step}`}</h1>
 
         <p className='max-lg:text-sm mt-3 text-neutral-300'>{paragraphText}</p>
 
-        <div className='mt-5 max-lg:mt-5 w-[120%] flex items-center justify-satrt'>
-          <button onClick={prevStep} className='max-lg:text-sm accent-white rounded-lg cursor-pointer bg-white px-12 py-2 max-lg:px-6'>
+        <div className='mt-5 max-lg:mt-5 w-[100%] flex items-center justify-satrt'>
+          <button onClick={prevStep} className='max-lg:text-sm accent-white rounded-lg cursor-pointer bg-white px-10 py-2 max-lg:px-6'>
             Back
           </button>
-          <button onClick={nextStep} className='max-lg:text-sm accent-white ml-10 rounded-lg cursor-pointer bg-white px-12 py-2 max-lg:px-6'>
+          <button onClick={nextStep} className='max-lg:text-sm accent-white ml-10 rounded-lg cursor-pointer bg-white px-10 py-2 max-lg:px-6'>
             Next
           </button>
         </div>
@@ -56,7 +56,7 @@ function HowItWorks(props) {
       <img
         src={stepPhoto}
         alt="Description of the image"
-        className='max-lg:ml-[0px] max-lg:w-[120%] ml-[100px] rounded-3xl drop-shadow-3xl'
+        className='max-md:ml-[0px] max-md:h-[30%] ml-[10%] rounded-3xl drop-shadow-3xl'
       />
     </div>
   );
