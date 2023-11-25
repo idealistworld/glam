@@ -60,7 +60,7 @@ function App() {
       <footer id='how-it-works' class='flex justify-between pt-[20px] pb-[35px] max-lg:px-8 px-12'>
         <h1>Contact: <span class='font-semibold'>paul@neiro.ai</span></h1>
         <a href='https://www.linkedin.com/company/mlventures-ai/' target='_blank'>
-          <h1>LinkedIn</h1>
+          <h1 class='font-semibold'>LinkedIn</h1>
         </a>
 
       </footer>
