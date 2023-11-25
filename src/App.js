@@ -1,5 +1,5 @@
 import './App.css';
-import glamLogo from './images/logo.svg'
+import glamLogo from './images/logo.png'
 import whiteLogo from './images/logo_white.svg'
 import appStore from './images/appstore.svg'
 import googlePlay from './images/googleplay.svg'
