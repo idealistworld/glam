@@ -39,18 +39,18 @@ function App() {
           </div>
         </div>
         
-        <div class='py-10 px-5 my-8 bg-white flex flex-wrap items-center justify-around max-lg:py-4 max-lg:justify-start'>
-          <h1 class='text-3xl font-black w-32 text-neutral-500 mr-10 mx-5 max-md:mx-0'>In <span class = 'text-4xl text-black whitespace-nowrap'> just one </span> year</h1>
-          <div class ='flex flex-col flex-row items-start mx-5 max-md:mx-0 max-md:w-screen max-lg:mt-10'>
-            <h1 class='text-6xl max-lg:text-7xl font-bold animate-text bg-gradient-to-r from-[#FF8FFA] via-[#FFCDB1] to-[#FFEB69] bg-clip-text text-transparent font-white'>500K+</h1>
+        <div class='py-10 px-5 my-8 bg-white flex flex-wrap items-center justify-evenly max-md:justify-start max-lg:py-4'>
+          <h1 class='text-3xl font-black w-32 text-neutral-500 mr-10 max-sm:mx-0'>In <span class = 'text-4xl text-black whitespace-nowrap'> just one </span> year</h1>
+          <div class ='flex flex-col flex-row items-start max-sm:mx-0 max-sm:w-screen max-sm:mt-10'>
+            <h1 class='text-6xl max-sm:text-7xl max-lg:text-5xl font-bold animate-text bg-gradient-to-r from-[#FF8FFA] via-[#FFCDB1] to-[#FFEB69] bg-clip-text text-transparent font-white'>500K+</h1>
             <h1 class='text-2xl font-bold mt-3 text-neutral-500 tracking-wide'>downloads</h1>
           </div>
-          <div class ='flex flex-col flex-row items-start mx-5 max-md:mx-0 max-md:w-screen max-lg:mt-10'>
-            <h1 class='text-6xl max-lg:text-7xl font-bold animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>$155k</h1>
+          <div class ='flex flex-col flex-row items-start max-sm:mx-0 max-sm:w-screen max-sm:mt-10'>
+            <h1 class='text-6xl max-sm:text-7xl max-lg:text-5xl font-bold animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>$155k</h1>
             <h1 class='text-2xl font-bold mt-3 text-neutral-500 tracking-wide'>MRR</h1>
           </div>
-          <div class ='flex flex-col flex-row items-start mx-5 max-md:mx-0 max-md:w-screen max-lg:mt-10'>
-            <h1 class='text-6xl max-lg:text-7xl font-bold animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>top 10</h1>
+          <div class ='flex flex-col flex-row items-start max-sm:mx-0 max-sm:w-screen max-sm:mt-10'>
+            <h1 class='text-6xl max-sm:text-7xl max-lg:text-5xl font-bold animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>top 10</h1>
             <h1 class='text-2xl font-bold mt-3 text-neutral-500 tracking-wide'>ranking</h1>
           </div>
         </div>
