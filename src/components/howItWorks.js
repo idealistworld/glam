@@ -38,8 +38,8 @@ function HowItWorks(props) {
   return (
     <div className='max-lg:flex-wrap-reverse max-lg:h-[100%] max-lg:mx-0 relative bg-effect bg-cover rounded-3xl mx-10 px-16 flex items-center justify-center absolute h-[500px]'>
       <div className='max-lg:mt-6 box-border max-lg:w-[100%] max-lg:px-5 max-lg:py-6 backdrop-blur-3xl drop-shadow-2xl bg-black/60 drop-shadow-2xl py-12 px-8 rounded-3xl w-[40%]'>
-        <h1 className='max-lg:text-3xl max-lg:mt-0 text-5xl font-black animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>How it Works</h1>
-        <h1 className='max-lg:text-xl text-3xl font-bold my-8 max-lg:my-3 text-white'>{`Step ${step}`}</h1>
+        <h1 className='max-lg:text-3xl max-lg:mt-0 text-4xl font-black animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>How it Works</h1>
+        <h1 className='max-lg:text-xl text-3xl font-bold my-5 max-lg:my-3 text-white'>{`Step ${step}`}</h1>
 
         <p className='max-lg:text-sm mt-3 text-neutral-300'>{paragraphText}</p>
 
