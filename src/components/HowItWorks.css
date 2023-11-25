@@ -5,10 +5,10 @@
   .line-shadow::before {
     content: '';
     position: absolute;
-    top: 20%; /* Centered vertically at 10% from the top */
+    top: 15%; /* Centered vertically at 10% from the top */
     left: -5px; /* Adjust the position of the line */
-    height: 60%; /* 80% of the div height */
-    width: 1.5%; /* Adjust the width of the line */
+    height: 70%; /* 80% of the div height */
+    width: 1.25%; /* Adjust the width of the line */
     background: linear-gradient(to bottom, #FF8FFA, #FFCDB1, #FFEB69); /* Adjust the colors of the line */
     background-size: 100% 300%; /* Set the size to accommodate three colors */
     border-radius: 4px; /* Adjust the border radius to create curved endings */
