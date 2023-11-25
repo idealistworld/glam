@@ -53,10 +53,10 @@ function App() {
             <h1 class='text-2xl font-bold mt-3 text-neutral-500 tracking-wide'>ranking</h1>
           </div>
         </div>
-
         <HowItWorks></HowItWorks>
       </body>
-      <footer id='how-it-works' class='flex justify-between pb-[35px] max-lg:px-8 px-12'>
+
+      <footer id='how-it-works' class='flex justify-between pb-[35px] max-lg:px-8 px-12 py-10'>
         <h1 class='text-neutral-500 max-sm:text-sm'>Contact: <span class='font-semibold'>paul@neiro.ai</span></h1>
         <a href='https://www.linkedin.com/company/mlventures-ai/' target='_blank'>
           <h1 class='font-semibold text-neutral-500 max-sm:text-sm'>LinkedIn</h1>
