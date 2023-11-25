@@ -39,7 +39,7 @@ function App() {
           </div>
         </div>
 
-        <div class='py-10 max-sm:px-8 px-5 my-8 bg-white flex flex-wrap items-center justify-around max-md:justify-start max-lg:py-0 max-lg:mb-3'>
+        <div class='py-10 max-sm:px-10 px-5 my-8 bg-white flex flex-wrap items-center justify-around max-md:justify-start max-lg:py-0 max-lg:mb-3'>
           <h1 class='text-3xl font-bold w-32 text-neutral-500 mr-10 max-sm:mx-0'>In <span class='text-4xl text-black whitespace-nowrap'> just one </span> year</h1>
           <div class='flex flex-col flex-row items-start max-sm:mx-0 max-sm:w-screen max-sm:mt-10'>
             <h1 class='text-6xl max-sm:text-7xl max-lg:text-5xl font-bold animate-text bg-gradient-to-r from-[#FF8FFA] via-[#FFCDB1] to-[#FFEB69] bg-clip-text text-transparent font-white'>500K+</h1>
