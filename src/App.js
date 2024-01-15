@@ -34,7 +34,6 @@ function App() {
             </div>
           </div>
           <div class='max-lg:w-[100%] w-[45%] drop-shadow-glow'>
-            <ImageCarousel></ImageCarousel>
           </div>
         </div>
 
