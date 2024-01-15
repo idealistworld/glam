@@ -4,6 +4,9 @@ import appStore from './images/appstore.svg'
 import googlePlay from './images/googleplay.svg'
 import ImageCarousel from './components/imageCarousel'
 import HowItWorks from './components/howItWorks'
+import leftImage from './images/leftImage.jpg';
+import middleImage from './images/middleImage.jpg';
+import rightImage from './images/rightImage.jpg';
 
 function App() {
   return (
@@ -34,8 +37,20 @@ function App() {
             </div>
           </div>
           <div class='max-lg:w-[100%] w-[45%] drop-shadow-glow'>
-            <ImageCarousel></ImageCarousel>
-          </div>
+            <div className="flex justify-center items-center">
+              <img
+                src={leftImage}
+                className="w-[170px] max-lg:w-[90px] h-auto -rotate-12 rounded-3xl hover:scale-110 duration-300 max-sm:rounded-xl"
+              ></img>
+              <img
+                src={middleImage}
+                className="w-[230px] max-lg:w-[150px] z-50 h-auto rounded-3xl hover:scale-110 duration-300 max-sm:rounded-xl"
+              ></img>
+              <img
+                src={rightImage}
+                className="w-[170px] max-lg:w-[90px] h-auto rotate-6 rounded-3xl hover:scale-110 duration-300 max-sm:rounded-xl"
+              ></img>
+            </div>          </div>
         </div>
 
         <div class='py-4 max-sm:px-10 px-5 my-8 bg-white flex flex-wrap items-center justify-around max-md:justify-start max-lg:py-0 max-lg:mb-3'>
