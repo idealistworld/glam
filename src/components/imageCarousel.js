@@ -1,7 +1,6 @@
 import leftImage from '../images/leftImage.webp';
 import middleImage from '../images/middleImage.webp';
 import rightImage from '../images/rightImage.webp';
-import './imageCard.css';
 
 function ImageCarousel() {
   return (

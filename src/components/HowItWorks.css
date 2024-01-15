@@ -1,3 +1,4 @@
+/*
 .line-shadow {
     position: relative;
   }
@@ -5,14 +6,14 @@
   .line-shadow::before {
     content: '';
     position: absolute;
-    top: 20%; /* Centered vertically at 10% from the top */
-    left: -5px; /* Adjust the position of the line */
-    height: 60%; /* 80% of the div height */
-    width: 1%; /* Adjust the width of the line */
-    background: linear-gradient(to bottom, #FF8FFA, #FFCDB1, #FFEB69); /* Adjust the colors of the line */
-    background-size: 100% 300%; /* Set the size to accommodate three colors */
-    border-radius: 4px; /* Adjust the border radius to create curved endings */
-    animation: gradientChange 3s ease-in-out infinite; /* Add the color gradient animation */
+    top: 20%; 
+    left: -5px;
+    height: 60%; 
+    width: 1%;
+    background: linear-gradient(to bottom, #FF8FFA, #FFCDB1, #FFEB69);
+    background-size: 100% 300%; 
+    border-radius: 4px; 
+    animation: gradientChange 3s ease-in-out infinite;
   }
   
   @keyframes gradientChange {
@@ -23,4 +24,4 @@
       background-position: 0 100%;
     }
   }
-  
+*/
