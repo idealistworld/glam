@@ -9,12 +9,13 @@ import {
 } from "react-router-dom";
 import Home from './pages/home'
 import Howitworks from './pages/howitworks';
+import Enterprise from './pages/enterprise'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App />}>
     <Route path='/' element={<Home />} />
     <Route path='/howitworks' element={<Howitworks />} />
-    <Route path='/enterprise' element={<Home />} />
+    <Route path='/enterprise' element={<Enterprise />} />
   </Route>
 ));
 

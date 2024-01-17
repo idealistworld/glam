@@ -2,7 +2,7 @@ import '../components/HowItWorks.css';
 
 import { useEffect } from 'react';
 
-export default function Asdf() {
+export default function HowItWorks() {
 
     useEffect(() => {
         // Create a script element
@@ -50,9 +50,10 @@ export default function Asdf() {
                     <p className='max-lg:text-sm mt-5 text-md text-white leading-8 opacity-75'>Enjoy your new content! Post your AI-powered photo or video on platforms such as TikTok or Instagram!</p>
                 </div>
             </div>
+
             <div className='mt-8 box-border max-md:w-[100%] max-lg:px-5 max-lg:pb-0 py-12 px-4 rounded-3xl w-[100%] max-md:mb-0 flex-wrap'>
                 <h1 className='max-lg:text-6xl max-lg:mt-0 text-7xl font-black bg-clip-text text-white '>Need some <span class='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'> ideas?</span></h1>
-                <p className='max-md:text-sm max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Need help coming up with some ideas for your next video?  Check out some of Glam's most popular filters and content below.</p>
+                <p className='max-md:text-sm max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Our team of content specialists have created some of social media's trendiest filters. If you're looking for inspiration when it comes to creating your next piece of content, look no further.  Check out of some Glam's premiere filters below.</p>
             </div>
             <div class='px-4 flex gap-[30px] w-[100%] flex-wrap'>
                 <a href='https://www.tiktok.com/search?q=glam%20app&t=1705451969776' target='_blank'>
@@ -72,7 +73,6 @@ export default function Asdf() {
                         <p className='max-lg:text-sm font-black text-white leading-8'>View in App</p>
                     </div>
                 </a>
-
             </div>
         </div>
     </div >)
