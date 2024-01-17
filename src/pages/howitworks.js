@@ -24,7 +24,7 @@ export default function Asdf() {
 
             <div className='box-border max-md:w-[100%] max-lg:px-5 max-lg:pb-0 py-12 px-4 rounded-3xl w-[100%] max-md:mb-0 flex-wrap'>
                 <h1 className='max-lg:text-6xl max-lg:mt-0 text-7xl font-black bg-clip-text text-white '>Glam <span class='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'> how it works</span></h1>
-                <p className='max-md:text-md max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Glam is super easy to get started with. All you need is the Glam app and content and in a few minutes, you'll have finished content. Our goal is to democratize content creation and allow anyone to have access to the tools that professional influencers use.</p>
+                <p className='max-md:text-sm max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Glam is super easy to get started with. All you need is the Glam app and content and in a few minutes, you'll have finished content. Our goal is to democratize content creation and allow anyone to have access to the tools that professional influencers use.</p>
             </div>
 
             <div className='backdrop-blur bg-white/10 border-[1px] px-12 py-6 border-white rounded-xl flex justify-between flex-wrap'>
