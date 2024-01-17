@@ -1,4 +1,5 @@
 import Stats from '../components/stats'
+import Offer from '../components/offer'
 
 export default function Enterprise() {
     return (<div>
@@ -10,21 +11,8 @@ export default function Enterprise() {
                     <h1 className='max-lg:text-6xl max-lg:mt-0 text-7xl font-black bg-clip-text text-white '>Work with Glam</h1>
                     <p className='max-md:text-sm max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Our team at Glam is pushing the boundaries as to what is possible in the world of artifical intelligence.  If you'd like to partner with us, we're open to it!  No deal is too big or too small, so feel free to reach out.</p>
                 </div>
-                <div class='px-4 flex gap-[30px] w-[100%] flex-wrap'>
-                    <a href='mailto:paul@neiro.ai' target='_blank'>
-                        <div class='backdrop-blur bg-white/10 border-[1px] px-12 py-2 rounded-xl hover:scale-110 duration-300'>
-                            <p className='max-lg:text-sm font-black text-white leading-8'>Contact Sales</p>
-                        </div>
-                    </a>
-
-                    <a href='https://docs.google.com/presentation/d/19A8fD4zBttLFpndWpmURhf7nyZ50pbdA/edit#slide=id.p2' target='_blank'>
-                        <div class='backdrop-blur bg-white/10 border-[1px] px-12 py-2 rounded-xl hover:scale-110 duration-300'>
-                            <p className='max-lg:text-sm font-black text-white leading-8'>View Deck</p>
-                        </div>
-                    </a>
-                </div>
+              
                 <Stats></Stats>
-
             </div>
         </div>
     </div>)
