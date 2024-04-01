@@ -2,6 +2,8 @@ import appStore from '../images/appstore.svg'
 import googlePlay from '../images/googleplay.svg'
 import ImageCarousel from '../components/imageCarousel'
 
+
+
 export default function Landing() {
     return (<body id='product' class='flex-col items-center justify-center overflow-hidden'>
         <div class='flex flex-wrap-reverse px-7 pt-20 pb-10 min-h-[100vh] justify-center items-center bg-landing bg-cover max-lg:text-center'>

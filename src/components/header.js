@@ -12,10 +12,10 @@ export default function Header() {
             </Link>
             <div className='flex mr-6 max-sm:mr-3'>
                 <Link to='/howitworks'>
-                    <h1 className='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm text-[#FFFFFF] font-semibold hover:scale-110 duration-200'>How it Works</h1>
+                    <h1 className='mr-[30px] max-lg:mr-[15px] text-base max-lg:text-sm text-[#FFFFFF] font-medium hover:scale-110 duration-200'>How it Works</h1>
                 </Link>
                 <Link to='/enterprise'>
-                    <h1 className='text-base max-lg:text-sm text-[#FFFFFF] font-semibold hover:scale-110 duration-200'>Enterprise</h1>
+                    <h1 className='text-base max-lg:text-sm text-[#FFFFFF] font-medium hover:scale-110 duration-200'>Enterprise</h1>
                 </Link>
             </div>
         </header>
