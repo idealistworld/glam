@@ -35,7 +35,7 @@ export default function Landing() {
                     <p className='max-md:text-sm max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Our team at Glam is pushing the boundaries as to what is possible in the world of artifical intelligence.  If you'd like to partner with us, we're open to it!  No deal is too big or too small, so feel free to reach out.</p>
                 </div>
                 <Stats></Stats>
-                <div className='w-[100%] mt-10'>
+                <div className='w-[100%] mt-14'>
                     <a href="mailto:contact@glamlabs.app"><button className='bg-white border-[1px] px-32 py-3 text-gray-600 rounded-lg text-lg font-semibold'>Contact Us</button></a>
                 </div>
             </div>
