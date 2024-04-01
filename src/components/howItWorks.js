@@ -1,28 +1,67 @@
-import React from 'react';
-import './HowItWorks.css';
+import React, { useState } from 'react';
 
 function HowItWorks() {
+  // State to manage hover effect
+  const [hover, setHover] = useState({ id: null });
+
+  // Inline styles
+  const boxStyle = {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'around',
+    alignItems: 'center',
+    width: '100%',
+    padding: '20px',
+    position: 'relative',
+    backgroundSize: 'cover',
+  };
+
+  const contentBoxStyle = {
+    marginTop: '24px',
+    boxSizing: 'border-box',
+    width: '40%',
+    maxWidth: '100%',
+    padding: '32px',
+    borderRadius: '24px',
+    marginBottom: '0',
+    transition: 'transform 0.3s ease-in-out',
+    backgroundColor: '#ffffff', // This is a fallback background
+  };
+
+  const hoverEffect = {
+    transform: 'scale(1.05)',
+  };
+
+  const titleStyle = {
+    fontSize: '40px',
+    fontWeight: 'bold',
+    color: '#374151', // This is for text color
+  };
+
+  const paragraphStyle = {
+    marginTop: '28px',
+    fontSize: '16px',
+    color: '#6B7280',
+  };
+
+  // Function to handle mouse enter and leave
+  const toggleHover = (id) => {
+    setHover({ id: hover.id === id ? null : id });
+  };
+
   return (
-    <div className='flex-wrap relative bg-cover px-5 flex items-center justify-around w-[100%'>
-      <div className='max-md:mt-6 box-border max-md:w-[100%] max-lg:px-5 max-lg:pb-0 py-8 px-4 rounded-3xl w-[40%] mb-8 max-md:mb-0 hover:scale-105 duration-300'>
-        <h1 className='max-lg:text-4xl max-lg:mt-0 text-5xl font-bold bg-clip-text text-neutral-600'>How it works</h1>
-        <p className='max-lg:text-sm mt-7 text-md text-neutral-400'>Glam is super easy to get started with. All you need is the Glam app and content and in a few minutes, you'll have finished content.</p>
-      </div>
-
-      <div className='max-md:mt-6 box-border max-md:w-[95%] max-lg:px-5 max-lg:py-3 py-8 px-8 rounded-3xl w-[40%] mb-8 max-md:mb-0 line-shadow animated-gradient hover:scale-105 duration-300'>
-        <h1 className='max-lg:text-3xl max-lg:mt-0 text-3xl font-semibold bg-clip-text animate-text text-neutral-600'>1. Upload content</h1>
-        <p className='max-lg:text-sm mt-5 text-md text-neutral-400'>To get started with Glam all you need to do is upload a photo or video. Select one from your camera roll.</p>
-      </div>
-
-      <div className='max-md:mt-6 box-border max-md:w-[95%] max-lg:px-5 max-lg:py-3 py-8 px-8 rounded-3xl w-[40%] mb-8 max-md:mb-0 line-shadow animated-gradient hover:scale-105 duration-300'>
-      <h1 className='max-lg:text-3xl max-lg:mt-0 text-3xl font-semibold bg-clip-text animate-text text-neutral-600'>2. Pick an effect</h1>
-        <p className='max-lg:text-sm mt-5 text-md text-neutral-400'>Pick one of Glam's original filters to apply to your photo or video. Your video will be ready in just seconds.</p>
-      </div>
-
-      <div className='max-md:mt-6 box-border max-md:w-[95%] max-lg:px-5 max-lg:py-3 py-8 px-8 rounded-3xl w-[40%] mb-8 max-md:mb-0 line-shadow animated-gradient hover:scale-105 duration-300'>
-      <h1 className='max-lg:text-3xl max-lg:mt-0 text-3xl font-semibold bg-clip-text animate-text text-neutral-600'>3. Share the result</h1>
-        <p className='max-lg:text-sm mt-5 text-md text-neutral-400'>Enjoy your new content! Post your AI-powered photo or video on platforms such as TikTok or Instagram!</p>
-      </div>
+    <div style={boxStyle}>
+      {[1, 2, 3].map((id) => (
+        <div
+          key={id}
+          style={{ ...contentBoxStyle, ...(hover.id === id ? hoverEffect : {}) }}
+          onMouseEnter={() => toggleHover(id)}
+          onMouseLeave={() => toggleHover(id)}
+        >
+          <h1 style={titleStyle}>Step {id}</h1>
+          <p style={paragraphStyle}>This is step {id} of how it works.</p>
+        </div>
+      ))}
     </div>
   );
 }
