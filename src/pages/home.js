@@ -28,7 +28,7 @@ export default function Landing() {
         <div id='enterprise' class='pb-28 flex flex-col items-center'>
             <div className='flex-wrap relative bg-cover flex items-center justify-around w-[90%]'>
                 <div className='box-border max-md:w-[100%] max-lg:px-5 max-lg:pb-0 py-12 px-4 rounded-3xl w-[100%] max-md:mb-0 flex-wrap'>
-                    <h1 className='max-lg:text-6xl max-lg:mt-0 text-7xl font-black bg-clip-text text-white '>Let's <span class='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>collab</span></h1>
+                    <h1 className='max-lg:text-6xl max-lg:mt-0 text-7xl font-black bg-clip-text text-white '>Let's <span class='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>partner</span></h1>
                     <p className='max-md:text-sm max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Our team at Glam is pushing the boundaries as to what is possible in the world of artifical intelligence.  If you'd like to partner with us, we're open to it!  No deal is too big or too small, so feel free to reach out.</p>
                 </div>
                 <Stats></Stats>
