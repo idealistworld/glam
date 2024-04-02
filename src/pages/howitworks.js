@@ -51,7 +51,7 @@ export default function HowItWorks() {
                 </div>
             </div>
 
-            <div className='mt-8 box-border max-md:w-[100%] max-lg:px-5 pb-10 px-4 rounded-3xl w-[100%] max-md:mb-0 flex-wrap'>
+            <div className='mt-8 box-border max-md:w-[100%] max-lg:px-5 max-md:pb-0 pb-10 px-4 rounded-3xl w-[100%] max-md:mb-0 flex-wrap'>
                 <p className='max-md:text-sm max-lg:mb-10 mt-7 text-xl text-white leading-10 opacity-75'>Our team of content specialists have created some of social media's trendiest filters. If you're looking for inspiration when it comes to creating your next piece of content, look no further.  Check out of some Glam's premiere filters below.</p>
             </div>
             <div class='px-4 flex gap-[30px] w-[100%] flex-wrap'>
