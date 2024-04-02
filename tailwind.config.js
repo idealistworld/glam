@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'landing': "url('../src/images/bg.svg')",
+        'landing': "url('../src/images/bg.png')",
         'effect': "url('../src/images/effect.svg')"
       },
       dropShadow: {

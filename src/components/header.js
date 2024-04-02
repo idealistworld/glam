@@ -18,7 +18,7 @@ export default function Header() {
     };
 
     return (
-        <header className={`absolute z-50 w-full box-border bg-cover px-12 py-8 max-lg:py-5 max-lg:px-3 flex justify-between items-center p-0`}>
+        <header className={`absolute z-50 w-full box-border bg-cover px-12 py-8 max-lg:py-5 max-lg:px-3 flex justify-between items-center`}>
             <Link to='/'>
                 <img className='h-10 max-lg:h-7 max-sm:ml-1' src={glamLogo} alt='Glam Logo'></img>
             </Link>
