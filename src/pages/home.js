@@ -35,7 +35,7 @@ export default function Landing() {
                 </div>
                 <Stats></Stats>
                 <div className='w-[100%] mt-14'>
-                    <a href="mailto:contact@glamlabs.app"><button className='bg-white border-[1px] px-32 py-3 text-gray-600 rounded-lg text-lg font-semibold'>Contact Us</button></a>
+                    <a href="mailto:contact@glamlabs.app"><button className='bg-white border-[1px] px-16 py-3 text-gray-600 rounded-lg text-lg font-semibold'>Contact Us</button></a>
                 </div>
             </div>
         </div>
