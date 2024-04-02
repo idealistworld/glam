@@ -5,7 +5,7 @@ import HowItWorks from '../pages/howitworks'
 import Stats from '../components/stats'
 
 export default function Landing() {
-    return (<body id='product' class='flex-col items-center justify-center overflow-hidden bg-cover bg-blue-300'>
+    return (<body id='product' class='flex-col items-center justify-center overflow-hidden bg-cover bg-landing'>
         <div class='flex flex-wrap-reverse px-7 pt-20 min-h-[100vh] justify-center items-center max-lg:text-center'>
             <div class='max-lg:w-[100%] max-lg:mt-10 w-[40%] mr-[80px] max-lg:mr-[0px] z-30'>
                 <h1 class='max-sm:text-left max-lg:text-4xl text-white font-black text-6xl drop-shadow-2xl max-lg:leading-tight leading-tight'>✨ Make custom <span class='animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>ai generated </span> filters ✨</h1>
