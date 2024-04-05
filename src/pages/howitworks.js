@@ -66,12 +66,6 @@ export default function HowItWorks() {
                         <p className='max-lg:text-sm font-black text-white leading-8'>Instagram</p>
                     </div>
                 </a>
-
-                <a href='https://apps.apple.com/md/app/glam-ai-art-video-generator/id1545593132' target='_blank'>
-                    <div class='backdrop-blur bg-white/10 border-[1px] px-12 py-2 rounded-xl hover:scale-110 duration-300'>
-                        <p className='max-lg:text-sm font-black text-white leading-8'>View in App</p>
-                    </div>
-                </a>
             </div>
         </div>
     </div >)

@@ -12,10 +12,10 @@ export default function Footer() {
                         <a href="https://www.linkedin.com/company/glam-labs?trk=profile-position" target="_blank" class="hover:underline me-4 md:me-6 font-normal">LinkedIn</a>
                     </li>
                     <li>
-                        <a href="mailto:contact@glamlabs.app" class="hover:underline me-4 md:me-6 font-normal">Licensing</a>
+                        <a href="mailto:contact@glamlabs.ai" class="hover:underline me-4 md:me-6 font-normal">Licensing</a>
                     </li>
                     <li>
-                        <a href="mailto:contact@glamlabs.app" class="hover:underline font-normal">Contact</a>
+                        <a href="mailto:contact@glamlabs.ai" class="hover:underline font-normal">Contact</a>
                     </li>
                 </ul>
             </div>
