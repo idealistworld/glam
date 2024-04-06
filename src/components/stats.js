@@ -10,8 +10,8 @@ export default function Stats() {
             <h1 class='text-2xl font-bold mt-3 text-white tracking-wide'>MRR</h1>
         </div>
         <div class='flex flex-col items-start max-md:mx-2 max-sm:mx-0 max-sm:w-screen max-sm:mt-4'>
-            <h1 class='text-5xl max-sm:text-6xl max-lg:text-5xl font-bold animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>Top 10</h1>
-            <h1 class='text-2xl font-bold mt-3 text-white tracking-wide'>iOS ranking</h1>
+            <h1 class='text-5xl max-sm:text-6xl max-lg:text-5xl font-bold animate-text bg-gradient-to-r from-[#FFEB69] via-[#FFA2A9] to-[#FFEB69] bg-clip-text text-transparent font-white'>Top editor</h1>
+            <h1 class='text-2xl font-bold mt-3 text-white tracking-wide'>for photo + video</h1>
         </div>
     </div>);
 }
